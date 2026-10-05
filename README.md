@@ -20,6 +20,8 @@ The entire game is one self-contained `index.html` — no build step, no depende
 | Drop secondary weapon | `X` |
 | Open skill tree | `T` |
 | Interact / crack a data cache (Signal Sync) | `F` |
+| Open the full map (progress, floors, room data) | click the minimap |
+| Browse the payload library (all modules) | library button on menu / pause |
 | Choose an upgrade / curse | `1` `2` `3` |
 | Choose a cache reward | `1` `2` |
 | Signal Sync (rhythm) lanes | `D` `F` `J` `K` or click the lanes |
@@ -44,17 +46,18 @@ Routes mix freely — a WORM/TROJAN hybrid, a BOTNET/SPYWARE drone-marker, etc. 
 
 ## Features
 
-- 7 design routes with distinct playstyles, signature mechanics, and synergies
+- 7 design routes with distinct playstyles, synergies, and a signature mechanic each (sustained-fire overclock, an infectious body, guaranteed-crit windows, retaliatory novas, corrosive death-pools, a drone kill-net, and spreading target-marks)
 - 9 weapon fire-modes (packet, sawblade, railgun, homing missiles, cutting beam, scatter, boomerang, tesla chain, flamethrower) plus per-weapon variant upgrades
 - Two weapon slots (a full-power main and a capped secondary) you can swap and drop on the fly
+- 100+ upgrades and artifacts, browsable in an in-game Library with full descriptions
 - A branching skill tree across four disciplines, earned with skill points on level-up
-- 7 themed floors with procedurally generated rooms (8 room shapes, multiple layouts)
-- 14+ enemy types, elite modifiers, and a surge system that spawns tougher "over-paced" encounters
-- 13 boss archetypes with versioned names, shuffled dodgeable attack patterns, and 10 corruption affixes
+- 7 themed floors with procedurally generated rooms (8 room shapes, multiple layouts) and a clickable map screen showing progress and discovered-room data
+- 20 enemy types with unique behaviors — teleporters, chargers, lightning nodes, spiral-weavers, death-nova husks, and space-bending distortion nodes — plus elite modifiers and a surge system
+- Space-bending warp fields that curve your shots, enemy fire, and your own movement
+- Boss fights with versioned names, shuffled dodgeable patterns, 11 corruption affixes, escalating desperation attacks, and heavy impact-frame / hit-stop juice
 - Data caches cracked via a 4-lane rhythm minigame for artifacts, new weapons, or compute
 - A between-floors curse system: pick which way the machine fights back
-- 20 cache-exclusive artifacts, 12 synergies, 4 difficulty levels
-- WebAudio sound, bloom, and post-processing — all hand-rolled, zero libraries
+- 4 difficulty levels; WebAudio sound, bloom, and post-processing — all hand-rolled, zero libraries
 
 ## Deploy to GitHub Pages
 
